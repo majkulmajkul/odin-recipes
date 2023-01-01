@@ -10,6 +10,10 @@ body{
 
 }
 
+.recipe-image{
+    max-width: 400px;
+}
+
 .dishes-container{
     display: flex;
     flex-direction: row;
