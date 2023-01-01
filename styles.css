@@ -1,14 +1,26 @@
+body{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 .dishes-container{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .dish-card{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    transition: transform .2s;
+    
 }
 
 .dish-image{
-    max-width: 160px;
+    max-width: 250px;
+    
+}
+
+.dish-card:hover{
+    transform: scale(1.1)
 }
