@@ -1,0 +1,14 @@
+.dishes-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.dish-card{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.dish-image{
+    max-width: 160px;
+}
